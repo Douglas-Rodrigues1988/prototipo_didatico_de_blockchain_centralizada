@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "npx tsc",
+    "dev": "npx nodemon ./src/blockchain.ts --watch ./src -e ts",
     "start": "node dist/blockchain.js"
   },
   "keywords": [],
@@ -11,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   }
 }

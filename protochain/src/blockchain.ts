@@ -1,3 +1,9 @@
-const x = 1;
+let idade: number;
+let nome: string;
+let dataNascimento: Date;
 
-console.log(x);
+function somar(a: number, b: number): number {
+    return a + b;
+}
+
+console.log(somar(3, 2));
